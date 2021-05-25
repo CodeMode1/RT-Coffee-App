@@ -4,6 +4,10 @@ using RT_Coffee_App.Models;
 using System;
 using System.Threading.Tasks;
 
+// QUESTIONS
+// Comment ça fonctionne que chaque browser est considéré comme un client / connected device différent ? est-ce c'est parce qu'il est associé à un connectedId unique ?
+// Est-ce que ça tire beaucoup de jus à l'application que le TCP socket reste ouvert pour toute la durée de l'application ?? On peut le fermer mais à ce moment plus possible de communiquer RT.
+
 // Sends and receives messages from front end
 // We covered:
 //    Creating Hubs
